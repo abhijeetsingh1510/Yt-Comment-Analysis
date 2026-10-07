@@ -1,0 +1,2 @@
+# Yt-Comment-Analysis
+An end-to-end 3-class NLP sentiment classifier (Positive / Neutral / Negative) trained on ~37K social-media comments. The project covers EDA, text cleaning, feature engineering, imbalance handling, a 7-algorithm benchmark, Optuna hyperparameter tuning and MLflow experiment tracking. The final LightGBM model reaches 86.6% accuracy (macro-F1 0.86) on a held-out test set, up from a 64.1% Random Forest baseline.
